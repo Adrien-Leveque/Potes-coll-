@@ -1,0 +1,151 @@
+
+body{
+    background-color: #e0ffd0;
+    margin: 0px;
+    padding:0px;
+    font-family: Verdana,sans-serif;
+    display: table;
+
+}
+
+
+/* scrollbar*/
+html{
+  scrollbar-width: auto;
+  scrollbar-color: #e68019 #0069cc ;
+}
+
+
+
+
+
+/* Organisation de la page */
+
+    header{
+        background-color: #63c2eb;
+        display: table-row;
+    }
+
+    main{
+        display: table-row;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+
+    footer{
+        background-color: #041a27;
+        color: white;
+        width: 100%;
+        display: table-row;
+    }
+    
+    
+    
+/* Mise en forme du texte */
+
+    /* titres et sous-titres */
+    .titre{
+        text-align: center;
+        font-family: Forte;
+        font-size: 75px;
+        font-weight: normal;
+        color: #EF8500;
+    }
+
+    h2{
+        font-family: Helvetica, Sans-Serif;
+        font-size: 35px;
+    }
+
+    h3{
+        font-family: Garamond,sans-serif;
+        font-size: 35px;
+    }
+
+    h4{
+        padding-left:10px;
+    }
+    
+    .pole{
+        padding: 30px 0 5px 0px;
+        font-size: 20px;
+    }
+
+    /* boites */
+    .boite_h2{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .tableau_menbre > tbody:nth-child(1) > tr > td{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: auto;
+
+    }
+
+    .case{
+        background-color: #6bac37;
+        padding: 5px 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        box-shadow: 10px 10px #204020;
+        transition: all .5s;
+        font-size: 0px;
+    }
+    
+    .case:hover{
+        box-shadow: 20px 20px #204010;
+        border-radius: 50px;
+        font-size: 15px;
+
+    }
+
+    .tableau_menbre{
+        margin: auto;
+        width: 1200px;
+    }
+    
+    .foot{
+        padding-left:20px;
+    }
+      
+    /* autres textes */
+    .member_name{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .role{
+        font-style: italic;
+        text-align: center;
+    }
+    
+
+    .note{
+        font-size: 11px;
+    }
+
+/* Mise en forme des images */
+
+    .logo_EPA{
+        float: right;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+
+    .logo_Potes-coll{
+        margin-left: 37%;
+        padding-left: 15px;
+    }
+
+    .instagram{
+        text-align: center;
+    }
+
+    .proto{
+        padding : 10px 0 0 50px;
+    }
