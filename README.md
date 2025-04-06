@@ -1,0 +1,1 @@
+Ce site web a été créé dans le cadre de la mini-entreprise (voir le contenu du site), certaines régles de sémantique ne sont donc pas respectée et le html ainsi que le css sont parfois assez chaotique (suremboitement des éléments...). 
