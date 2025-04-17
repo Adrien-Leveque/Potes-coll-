@@ -10,7 +10,7 @@
 
   <body>
     <header>
-      <div>
+      <div class="header-flex">
         <map name="Potes_coll">
           <area shape="rect" coords="0,0,952,210" href="index.html" />
         </map>
@@ -20,7 +20,6 @@
           class="logo_Potes-coll"
           src="images/logo Potes coll.png"
           alt="logo de potes coll'"
-          height="120"
         />
 
         <map name="EPA">
@@ -35,7 +34,6 @@
         <img
           usemap="#EPA"
           class="logo_EPA"
-          height="100px"
           src="images/logo EPA.png"
           alt="logo de EPA"
         />
@@ -44,54 +42,39 @@
 
     <main>
       <h1>Accueil</h1>
-      <table>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <a href="pages/qui_sommes_nous/page.html"
-              ><div class="case">
-                <h2>Qui sommes-nous ?</h2>
-                <p>
-                  La mini-entreprise, ses membres ainsi que notre organisation
-                  par pôle.
-                </p>
-              </div></a
-            >
-          </td>
-          <td>
-            <a href="pages/omnipot/page.html">
-              <div class="case">
-                <h2>L'omnipot</h2>
-                <p>
-                  Notre produit, ses caractéristiques, ses avantages et plus
-                  encore !
-                </p>
-              </div></a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td colspan="2">
-            <a href="pages/histoire/page.html">
-              <div class="case">
-                <h2>De notre création à aujourd'hui</h2>
-                <p>
-                  L'histoire du choix du projet ainsi que de sa méthode de
-                  fabriquation, des différentes étapes d'organisation et de
-                  répartition des rôles jusq'à la production et la vente des
-                  omnipots
-                </p>
-              </div></a
-            >
-          </td>
-        </tr>
-      </table>
+      <div class="container-cases">
+        <a href="pages/qui_sommes_nous/page.html"
+          ><div class="case">
+            <h2>Qui sommes-nous ?</h2>
+            <p>
+              La mini-entreprise, ses membres ainsi que notre organisation par
+              pôle.
+            </p>
+          </div></a
+        >
+
+        <a href="pages/omnipot/page.html">
+          <div class="case">
+            <h2>L'omnipot</h2>
+            <p>
+              Notre produit, ses caractéristiques, ses avantages et plus encore
+              !
+            </p>
+          </div></a
+        >
+
+        <a href="pages/histoire/page.html">
+          <div class="case">
+            <h2>De notre création à aujourd'hui</h2>
+            <p>
+              L'histoire du choix du projet ainsi que de sa méthode de
+              fabriquation, des différentes étapes d'organisation et de
+              répartition des rôles jusq'à la production et la vente des
+              omnipots
+            </p>
+          </div></a
+        >
+      </div>
     </main>
 
     <footer>
