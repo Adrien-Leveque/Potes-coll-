@@ -24,24 +24,32 @@ header {
   background-color: #63c2eb;
   width: 100%;
   box-sizing: border-box;
-}
-
-header > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
   position: relative;
 }
 
-.logo_EPA {
-  position: absolute;
-  right: 15px;
+.header-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px;
+  background-color: #63c2eb;
 }
 
 .logo_Potes-coll {
-  padding: 0;
-  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 40vw;
+  height: auto;
+  z-index: 1;
+}
+
+.logo_EPA {
+  margin-left: auto;
+  max-width: 20vw;
+  height: auto;
+  z-index: 2;
 }
 
 /* main */
@@ -109,4 +117,15 @@ h4 {
   color: #ffffff;
   text-decoration-color: white;
   text-decoration-line: underline;
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  .logo_Potes-coll {
+    max-width: 60vw;
+  }
+
+  .logo_EPA {
+    max-width: 30vw;
+  }
 }
