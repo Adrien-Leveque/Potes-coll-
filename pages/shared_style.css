@@ -40,9 +40,10 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 30vw;
+  max-width: 40vw;
   height: auto;
   z-index: 1;
+  max-height: 108px;
 }
 
 .logo_EPA {
@@ -50,6 +51,8 @@ header {
   max-width: 10vw;
   height: auto;
   z-index: 2;
+  max-height: 85px;
+  padding: 15px 0px;
 }
 
 /* main */
@@ -100,16 +103,3 @@ h4 {
   text-decoration-line: underline;
 }
 
-/* mobile */
-
-/*
-@media screen and (max-width: 600px) {
-  .logo_Potes-coll {
-    max-width: 60vw;
-  }
-
-  .logo_EPA {
-    max-width: 25vw;
-  }
-}
-*/
