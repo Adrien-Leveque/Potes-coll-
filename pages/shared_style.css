@@ -40,14 +40,14 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 40vw;
+  max-width: 30vw;
   height: auto;
   z-index: 1;
 }
 
 .logo_EPA {
   margin-left: auto;
-  max-width: 15vw;
+  max-width: 5vw;
   height: auto;
   z-index: 2;
 }
