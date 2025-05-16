@@ -49,6 +49,7 @@ thead > tr {
 }
 
 .groupe {
-  max-width: 70vw;
+  max-width: 50vw;
   height: auto;
+  margin : auto
 }
