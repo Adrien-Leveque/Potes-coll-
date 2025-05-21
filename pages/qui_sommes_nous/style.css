@@ -49,7 +49,19 @@ thead > tr {
 }
 
 .groupe {
-  max-width: 50vw;
+  max-width: 65vw;
   height: auto;
-  margin : auto
+  padding-top: 25px;
+  display: block;
+  margin: auto;
+}
+
+.legende {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 15px;
 }
